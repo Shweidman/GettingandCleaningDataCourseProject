@@ -1,6 +1,6 @@
 ##This is the CodeBook for the two datasets in the repo.
 
-###Variables in dataTotal.txt
+###Variables in dataTotal1.txt
 
 * Column 1: subject: categorical variable from 1 to 30
 * Column 2: activity: categorical variable, from 1 to 6
@@ -43,9 +43,9 @@
 * Column 39: tBodyAccJerkMag-std(): Standard deviation of the time domain signal from the device of the body's acceleration jerk magnitude
 * Column 40: tBodyGyroMag-mean(): Mean of the time domain signal from the device of the body angular magnitude
 * Column 41: tBodyGyroMag-std(): Standard deviation of the time domain signal from the device of the body angular magnitude
-* Column 42: tBodyGyroMag-mean(): Mean of the time domain signal from the device of the body angular magnitude jerk
-* Column 43: tBodyGyroMag-std(): Standard deviation of the time domain signal from the device of the body angular magnitude jerk
-* Column 44: fBodyAcc-mean()-X: Mean of the freqency domain signal from the device of the body acceleration in the X direction
+* Column 42: tBodyGyroJerkMag-mean(): Mean of the time domain signal from the device of the body angular magnitude jerk
+* Column 43: tBodyGyroJerkMag-std(): Standard deviation of the time domain signal from the device of the body angular magnitude jerk
+* Column 44: fBodyAcc-mean()-X: Mean of the frequency domain signal from the device of the body acceleration in the X direction
 * Column 45: fBodyAcc-mean()-Y: Mean of the frequency domain signal from the device of the body acceleration in the Y direction
 * Column 46: fBodyAcc-mean()-Z: Mean of the frequency domain signal from the device of the body acceleration in the Z direction
 * Column 47: fBodyAcc-std()-X: Standard deviation of the frequency domain signal from the device of the body acceleration in the X direction
@@ -90,3 +90,47 @@
 * Column 86: bodyAccXMean: Mean of the body's acceleration in the X direction
 * Column 87: bodyAccXSD: Standard deviation of the body's acceleration in the X direction 
 
+###Variables in dataSubjectActivityMeans2.txt
+
+* Column 1: tBodyAcc-mean()-X: Mean of the time domain signal from the device of the body acceleration in the X direction
+* Column 2: tBodyAcc-mean()-Y: Mean of the time domain signal from the device of the body acceleration in the Y direction
+* Column 3: tBodyAcc-mean()-Z: Mean of the time domain signal from the device of the body acceleration in the Z direction
+* Column 4: tGravityAcc-mean()-X: Mean of the time domain signal from the device of the gravity acceleration in the X direction
+* Column 5: tGravityAcc-mean()-Y: Mean of the time domain signal from the device of the gravity acceleration in the Y direction
+* Column 6: tGravityAcc-mean()-Z: Mean of the time domain signal from the device of the gravity acceleration in the Z direction
+* Column 7: tBodyAccJerk-mean()-X: Mean of the time domain signal from the device of the body "jerk" (rate of change of acceleratio)n in the X direction
+* Column 8: tBodyAccJerk-mean()-Y Mean of the time domain signal from the device of the body "jerk" (rate of change of acceleration) in the Y direction
+* Column 9: tBodyAccJerk-mean()-Z: Mean of the time domain signal from the device of the body "jerk" (rate of change of acceleration) in the Z direction
+* Column 10: tBodyGyro-mean()-X: Mean of the time domain signal from the device of the body angular velocity in the X direction
+* Column 11: tBodyGyro-mean()-Y: Mean of the time domain signal from the device of the body angular velocity in the Y direction
+* Column 12: tBodyGyro-mean()-Z: Mean of the time domain signal from the device of the body angular velocity in the Z direction
+* Column 13: tBodyGyroJerk-mean()-X: Mean of the time domain signal from the device of the body angular jerk in the X direction
+* Column 14: tBodyGyroJerk-mean()-Y: Mean of the time domain signal from the device of the body angular jerk in the Y direction
+* Column 15: tBodyGyroJerk-mean()-Z: Mean of the time domain signal from the device of the body angular jerk in the Z direction
+* Column 16: tBodyAccMag-mean(): Mean of the time domain signal from the device of the body's acceleration magnitude
+* Column 17: tGravityAccMag-mean(): Mean of the time domain signal from the device of gravity's acceleration magnitude
+* Column 18: tBodyAccJerkMag-mean(): Mean of the time domain signal from the device of the body's acceleration jerk magnitude
+* Column 19: tBodyGyroMag-mean(): Mean of the time domain signal from the device of the body angular magnitude
+* Column 20: tBodyGyroJerkMag-mean(): Mean of the time domain signal from the device of the body angular magnitude jerk
+* Column 21: fBodyAcc-mean()-X: Mean of the frequency domain signal from the device of the body acceleration in the X direction
+* Column 22: fBodyAcc-mean()-Y: Mean of the frequency domain signal from the device of the body acceleration in the Y direction
+* Column 23: fBodyAcc-mean()-Z: Mean of the frequency domain signal from the device of the body acceleration in the Z direction
+* Column 24: fBodyAccJerk-mean()-X: Mean of the frequency domain signal from the device of the body "jerk" (rate of change of acceleration) in the X direction
+* Column 25: fBodyAccJerk-mean()-Y: Mean of the frequency domain signal from the device of the body "jerk" (rate of change of acceleration) in the Y direction
+* Column 26: fBodyAccJerk-mean()-Z: Mean of the frequency domain signal from the device of the body "jerk" (rate of change of acceleration in the Z direction
+* Column 27: fBodyGyro-mean()-X: Mean of the frequency domain signal from the device of the body angular velocity in the X direction
+* Column 28: fBodyGyro-mean()-Y: Mean of the frequency domain signal from the device of the body angular velocity in the Y direction
+* Column 29: fBodyGyro-mean()-Z: Mean of the frequency domain signal from the device of the body angular velocity in the Z direction
+* Column 30: fBodyAccMag-mean(): Mean of the frequency domain signal from the device of the body's acceleration magnitude
+* Column 31: fBodyBodyAccJerkMag-mean(): Mean of the time domain signal from the device of the body's acceleration jerk magnitude
+* Column 32: fBodyBodyGyroMag-mean(): Mean of the frequency domain signal from the device of the magnitde of the body angular velocity
+* Column 33: fBodyBodyGyroJerkMag-mean(): Mean of the frequency domain signal from the device of the magnitde of the body angular jerk
+* Column 34: totalAccZMean: Mean of the total (body + gravity) acceleration in the Z direction  
+* Column 35: totalAccYMean: Mean of the total (body + gravity) acceleration in the Y direction
+* Column 36: totalAccXMean: Mean of the total (body + gravity) acceleration in the X direction  
+* Column 37: bodyGyroZMean: Mean of the angular velocity in the Z direction  
+* Column 38: bodyGyroYMean: Mean of the angular velocity in the Y direction 
+* Column 39: bodyGyroXMean: Mean of the angular velocity in the X direction
+* Column 40: bodyAccZMean: Mean of the body's acceleration in the Z direction
+* Column 41: bodyAccYMean: Mean of the body's acceleration in the Y direction 
+* Column 42: bodyAccXMean: Mean of the body's acceleration in the X direction

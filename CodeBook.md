@@ -69,33 +69,24 @@
 * Column 65: fBodyBodyAccJerkMag-std(): Standard deviation of the time domain signal from the device of the body's acceleration jerk magnitude 
 * Column 66: fBodyBodyGyroMag-mean(): Mean of the frequency domain signal from the device of the magnitde of the body angular velocity
 * Column 67: fBodyBodyGyroMag-std(): Standard deviation of the frequency domain signal from the device of the magnitde of the body angular velocity
-*Column 68: fBodyBodyGyroJerkMag-mean(): Mean of the frequency domain signal from the device of the magnitde of the body angular jerk
-*Column 69: fBodyBodyGyroJerkMag-mean(): Standard deviation of the frequency domain signal from the device of the magnitde of the body angular jerk
-*Column 70:  
-*Column 61:
-*Column 62:
-*Column 63:
-*Column 64:
-*Column 65:
-*Column 66:
-*Column 67:
-*Column 68:
-*Column 69:
-*Column 70:
-*Column 71:
-*Column 72:
-*Column 73:
-*Column 74:
-*Column 75:
-*Column 76:
-*Column 77:
-*Column 78:
-*Column 79:
-*Column 80:
-*Column 81:
-*Column 82:
-*Column 83:
-*Column 84:
-*Column 85:
-*Column 86:
-*Column 87:
+* Column 68: fBodyBodyGyroJerkMag-mean(): Mean of the frequency domain signal from the device of the magnitde of the body angular jerk
+* Column 69: fBodyBodyGyroJerkMag-mean(): Standard deviation of the frequency domain signal from the device of the magnitde of the body angular jerk
+* Column 70: totalAccZMean: Mean of the total (body + gravity) acceleration in the Z direction  
+* Column 71: totalAccZSD: Standard deviation of the total (body + gravity) acceleration in the Z direction
+* Column 72: totalAccYMean: Mean of the total (body + gravity) acceleration in the Y direction
+* Column 73: totalAccYSD: Standard deviation of the total (body + gravity) acceleration in the Y direction
+* Column 74: totalAccXMean: Mean of the total (body + gravity) acceleration in the X direction  
+* Column 75: totalAccXSD: Standard deviation of the total (body + gravity) acceleration in the X direction
+* Column 76: bodyGyroZMean: Mean of the angular velocity in the Z direction  
+* Column 77: bodyGyroZSD: Standard deviation of the angular velocity in the Z direction  
+* Column 78: bodyGyroYMean: Mean of the angular velocity in the Y direction 
+* Column 79: bodyGyroYSD: Standard deviation of the angular velocity in the Y direction 
+* Column 80: bodyGyroXMean: Mean of the angular velocity in the X direction
+* Column 81: bodyGyroXSD: Standard deviation of the angular velocity in the X direction 
+* Column 82: bodyAccZMean: Mean of the body's acceleration in the Z direction
+* Column 83: bodyAccZSD: Standard deviation of the body's acceleration in the Z direction  
+* Column 84: bodyAccYMean: Mean of the body's acceleration in the Y direction 
+* Column 85: bodyAccYSD: Standard deviation of the body's acceleration in the Y direction 
+* Column 86: bodyAccXMean: Mean of the body's acceleration in the X direction
+* Column 87: bodyAccXSD: Standard deviation of the body's acceleration in the X direction 
+
